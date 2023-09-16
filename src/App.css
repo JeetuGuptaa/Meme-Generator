@@ -93,6 +93,7 @@ main{
 }
 
 #upperText, #bottomText{
+  font-size: 2rem;
   position: absolute;
   text-transform: uppercase;
   text-align: center;
@@ -119,4 +120,10 @@ main{
 
 .bottom{
   bottom : 0;
+}
+
+@media screen and (max-width : 600px) {
+  #upperText, #bottomText{
+    font-size: 14px;
+  }
 }
