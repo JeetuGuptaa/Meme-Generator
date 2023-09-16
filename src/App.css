@@ -1,0 +1,33 @@
+:root{
+  font-family: "Inter", sans-serif;
+}
+
+
+body{
+  margin : 0;
+  color : rgb(255, 255, 255);
+}
+
+#header{
+    display: flex;
+    height: 10vh;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+#site-name-conatiner{
+    display: flex;
+    align-items: center;
+}
+
+.troll-face{
+    display: inline-block;
+    margin: auto 5px auto 20px;
+    height: 35px;
+}
+
+#header :last-child{
+    margin-right: 25px;
+}
