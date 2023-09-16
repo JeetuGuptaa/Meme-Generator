@@ -31,3 +31,92 @@ body{
 #header :last-child{
     margin-right: 25px;
 }
+
+
+main{
+  width : 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input-container{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#input-container input{
+  width : 45%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 50px 0 20px 0;
+  text-indent: 10px;
+  font-size: 1rem;
+  border: 1px solid #D5D4D8;
+  outline: none;
+}
+
+#input-container input:focus{
+  font-style: "Inter", sans-serif;
+  border: 1px solid #5a5a5a;
+}
+#fetch-button{
+  width : 70%;
+  height: 40px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  line-height: 1rem;
+  background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+  color : #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+#fetch-button:active{
+  background: linear-gradient(90deg, rgba(118, 33, 146, 0.8) 1.14%, rgba(168, 24, 218, 0.8) 100%);
+}
+
+#meme{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+}
+
+#meme-image{
+  display: inline-block;
+  margin: 20px;
+  max-width: 100%;
+}
+
+#upperText, #bottomText{
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  transform: translateX(-50%);
+  font-family: impact, sans-serif;
+  letter-spacing: 1px;
+  left : 50%;
+  padding : 20px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.top{
+  top : 0;
+}
+
+.bottom{
+  bottom : 0;
+}
